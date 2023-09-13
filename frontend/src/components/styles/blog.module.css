@@ -1,0 +1,92 @@
+
+
+.container{
+    width: 100%;
+    /* height: calc(100vh - 72px); */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    border-radius: 1rem;
+    padding: 1rem 0;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading>h1{
+    font-size: 3.2rem;
+    letter-spacing: 5px;
+}
+
+.heading>p{
+    font-size: 1.2rem;
+    letter-spacing: 1rem;
+    color: #242424;
+}
+
+.section{
+    padding: 1.6rem  0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+}
+
+.section> div >label{
+    display: block;
+    font-size: 1.6rem;
+}
+
+.section> div > input{
+    width: 50vw;
+    height: 2.6rem;
+    padding: 0 1rem;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #000;
+}
+.section> div > textarea{
+    width: 50vw;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #000;
+    font-size: 1.1rem;
+}
+
+.postBtn{
+    width: 150px;
+    height: 60px;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background: #ff6700;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.postBtn:active{
+    background: #bf3100;
+    transform: scale(0.9);
+}

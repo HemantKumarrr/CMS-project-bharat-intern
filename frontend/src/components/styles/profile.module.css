@@ -1,0 +1,105 @@
+
+.container{
+    width: 100%;
+    /* height: calc(100vh - 72px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.box{
+    padding: 1rem 4rem;
+    width: 50vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+
+.box>div>h1{
+    font-size: 16px;
+}
+
+.box>i{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.box>h1{
+    display: inline;
+}
+
+.blog_list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+
+.blog_list> h1{
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    letter-spacing: 10px;
+    padding: 1rem 0;
+    border-bottom: 2px dashed #000;
+}
+
+.deleteBtn{
+    width: 5rem;
+    height: 2.4rem;
+    background: #ff0000db;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transform: scale(1);
+    margin-top: 1rem ;
+    margin-right: 2rem;
+}
+.updateBtn:active{
+    transform: scale(0.9);
+}
+.deleteBtn:active{
+    transform: scale(0.9);
+}
+
+.updateBtn{
+    width: 5rem;
+    height: 2.4rem;
+    color: #000;
+    background: #fff;
+    font-size: 1rem;
+    border: 2px solid #000;
+    outline: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transform: scale(1);
+    margin-top: 1rem ;
+    margin-right: 2rem;
+    padding: 7px;
+}
+
+
+.editBtn{
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 2rem;
+}
+
+@media screen and (max-width: 850px){
+    .box{
+        width: 80vw;
+    }
+}
